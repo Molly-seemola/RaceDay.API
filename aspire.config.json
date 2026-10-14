@@ -1,0 +1,5 @@
+{
+  "appHost": {
+    "path": "RaceDay.API.AppHost/RaceDay.API.AppHost.csproj"
+  }
+}
