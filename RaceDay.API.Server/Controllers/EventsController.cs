@@ -107,7 +107,7 @@ public class EventsController : ControllerBase
 
     /// <summary>
     /// Delete an event (Organiser only — must own it)
-    /// </summary>
+   
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)
     {
