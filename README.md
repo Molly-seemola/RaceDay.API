@@ -1,7 +1,7 @@
-# 🏃 RaceDay – Portfolio of Evidence Part 2
+# RaceDay – Portfolio of Evidence Part 2
 
 **Module:** PROG6212  
-**Project:** RaceDay – RESTful API Development  
+**Project:** RaceDay – API Development  
 **Student:** Molly Seemola  
 **Programming Language:** C#  
 **Framework:** ASP.NET Core Web API  
