@@ -273,6 +273,7 @@ To use Swagger:
 
 For endpoints requiring authentication, the correct session cookie or authentication mechanism must be established first.
 
+
 Swagger should document the endpoints, their inputs, their purposes, and their expected responses.
 
 ## 10. Unit Testing
