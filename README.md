@@ -6,7 +6,7 @@
 **Programming Language:** C#  
 **Framework:** ASP.NET Core Web API  
 **Database:** Microsoft SQL Server  
-**Repository:** [Race-dayDB-PROG-1](https://github.com/Molly-seemola/Race-dayDB-PROG-1)
+**Repository:** https://github.com/Molly-seemola/RaceDay.API
 
 ---
 
@@ -533,7 +533,7 @@ The presentation should demonstrate and explain:
 
 The video must show the running application and include your own voice explaining the code and design decisions. AI-generated voices are not permitted.
 
-**Video link:** Add your actual unlisted YouTube URL here before submission.
+**Video link:** https://youtu.be/0RHx9yq1Cw0
 
 ## 16. Part 2 Submission Checklist
 
@@ -575,4 +575,4 @@ The final implementation must be built, tested, and demonstrated before the proj
 
 **Project:** RaceDay – PROG6212 PoE Part 2  
 **Student:** Molly Seemola  
-**Repository:** https://github.com/Molly-seemola/Race-dayDB-PROG-1
+**Repository:** https://github.com/Molly-seemola/RaceDay.API
