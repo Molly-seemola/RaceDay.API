@@ -1,0 +1,56 @@
+name: .NET Build and Test
+
+on:
+  push:
+    branches: [ main, master, develop ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+env:
+  DOTNET_VERSION: '10.0.x'
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  build-and-test:
+    name: Build and Test API
+    runs-on: ubuntu-latest
+
+    steps:
+      # ============================================
+      # 1. CHECK OUT THE CODE
+      # ============================================
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ============================================
+      # 2. SET UP .NET SDK
+      # ============================================
+      - name: Setup .NET ${{ env.DOTNET_VERSION }}
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      # ============================================
+      # 3. RESTORE NUGET PACKAGES
+      # ============================================
+      - name: Restore dependencies
+        run: dotnet restore
+
+      # ============================================
+      # 4. BUILD THE SOLUTION
+      # ============================================
+      - name: Build solution
+        run: dotnet build --no-restore --configuration Release
+
+      # ============================================
+      # 5. RUN ALL UNIT TESTS
+      # ============================================
+      - name: Run unit tests
+        run: dotnet test --no-build --configuration Release --verbosity normal
+
+      # ============================================
+      # 6. ALL DONE
+      # ============================================
+      - name: Success message
+        run: echo "✅ Build and tests completed successfully!"
