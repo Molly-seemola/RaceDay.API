@@ -2,7 +2,7 @@
 
 **Module:** PROG6212  
 **Project:** RaceDay – API Development  
-**Student:** Molly Seemola  
+**Student:** Mmamoloko Molly Seemola  
 **Programming Language:** C#  
 **Framework:** ASP.NET Core Web API  
 **Database:** Microsoft SQL Server  
