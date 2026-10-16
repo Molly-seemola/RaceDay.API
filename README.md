@@ -445,8 +445,8 @@ Adjust the path if your project structure differs.
 ### Step 8: Open Swagger
 
 Use the application URL displayed in the terminal or Visual Studio output. Open its Swagger page, usually:
+http://localhost:5000/swagger/index.html
 
-`https://localhost:<port>/swagger`
 
 Replace `<port>` with the actual port assigned to your application.
 
