@@ -392,9 +392,9 @@ Example for a local SQL Server Express installation:
 
 ```json
 {
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=YOUR_SERVER_NAME\\SQLEXPRESS;Database=RaceDayDB;Trusted_Connection=True;TrustServerCertificate=True"
-  }
+   "ConnectionStrings": {
+   "DefaultConnection": "Server=MOLLY_SEEMOLA\\SQLEXPRESS;Database=RaceDayDB;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True"
+ }
 }
 ```
 
