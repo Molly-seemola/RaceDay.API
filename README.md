@@ -374,8 +374,8 @@ Install the tools required by the actual solution:
 Open a terminal and run:
 
 ```bash
-git clone https://github.com/Molly-seemola/Race-dayDB-PROG-1.git
-cd Race-dayDB-PROG-1
+git clone https://github.com/Molly-seemola/RaceDay.API
+cd missing
 ```
 
 ### Step 2: Open the solution
